@@ -102,7 +102,7 @@ section#home-section {
 #home {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/home-bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://supernova-site.pages.dev/img/home-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: absolute;
