@@ -1,7 +1,7 @@
 // Array of games for homepage to scroll over
-const games = [ "Moto X3M", "Vex 3", "Vex 4", "Vex 5", "Paper.io", "Subway Surfers", "Retrobowl",  "Slope", "Slope 2" ];
+const games = [ "Vex 3", "Vex 4", "Vex 5", "Vex 6!", "Run 3", "Geometry Dash", "Retrobowl",  "Slope", ];
 // When homepage game scroll is done, it sets to "Play over 20+ games"
-const max_games_num = 100;
+const max_games_num = 20;
 
 // Can use in an async function (await sleep())
 const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
