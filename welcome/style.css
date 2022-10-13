@@ -1,0 +1,243 @@
+/* ------------ UNIVERSAL ------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+html {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+body {
+    /* hide horizontal scrollbar */
+    overflow-x: hidden;
+}
+
+/* ------------ NAV ------------ */
+
+nav {
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    font-size: 35px;
+    z-index: 2;
+}
+
+nav a {
+    display: inline;
+    text-decoration: none;
+    margin: 5px 0;
+    padding: 0 5px;
+}
+
+.left-nav {
+    float: left;
+}
+
+.right-nav {
+    float: right;
+    margin: 5px 20px;
+}
+
+nav img {
+    width: 45px;
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+/* ------------ BTN ------------- */
+
+.ios-btn {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 80px;
+    text-decoration: none;
+    background-color: #3478f5;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.ios-btn:active {
+    background-color: #2757b1
+}
+
+.incognito {
+    background-color: rgb(110, 110, 110);
+}
+
+.incognito:hover {
+    background-color: seagreen;
+}
+
+/* ------------ MAIN ------------ */
+
+section {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+/* ------- HOME ------- */
+
+section#home-section {
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    /* HOME PAGE BACKGROUND BLUR */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+#home {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: absolute;
+    position: absolute;
+}
+
+h1, h3 {
+    text-align: center;
+    font-weight: 300;
+}
+
+h1 {
+    padding-top: 35vh;
+    font-size: 700%;
+}
+
+#home-game-scroll-item {
+    display: inline-block;
+    text-align: left;
+    border-bottom: 3px solid white;
+}
+
+@media (max-width: 850px) {
+    #home-game-scroll-item {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 480%;
+    }
+
+    h3 {
+        font-size: 350%;
+        margin-top: 2vh;
+    }
+}
+
+h3 {
+    font-size: 400%;
+    margin-top: 4vh;
+}
+
+/* ------- PLAY ------- */
+
+section#play-section {
+    height: calc(100vh - 20px);
+    width: 100vw;
+    margin: 0;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+#play {
+    /* For some reason the height of footer here needs to be doubled from 20px to 40px for it to work properly. Idk why */
+    height: calc(100vh - 20px);
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: absolute;
+    position: absolute;
+}
+
+#play-content {
+    margin: 20vh 20vw;
+}
+
+h2, h4 {
+    text-align: left;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 500%;
+}
+
+h4 {
+    font-size: 250%;
+    margin-bottom: 5%;
+}
+
+#play-options {
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.play-btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.play-btn {
+    padding: 20px 100px;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    font-size: 17px;
+}
+
+#play-options-left {
+    margin-right: 6.5vw;
+}
+
+#play-options-right {
+    margin-left: 6.5vw;
+}
+
+.play-option {
+    width: 400px;
+}
+
+/* Otherwise the padding will be too big to have the whole text fit on one line */
+#play-open-web {
+    padding: 20px calc(100px - 1ex);
+}
+
+@media (max-width: 850px) {
+    #play-content {
+        margin: 10vh 1vw;
+        width: 100vw;
+    }
+
+    #play-options-left {
+        margin-right: 1vw;
+    }
+
+    #play-options-right {
+        margin-left: 1vw;
+    }
+}
+
+/* ------ FOOTER ------ */
+
+footer {
+    height: 20px;
+}
