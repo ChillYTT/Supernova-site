@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="" /> <!--Add an author-->
+    <meta name="description" content="" /> <!--Add a description-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Supernova</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <!--Logo and name are in different links because having them in the same link messes with alignment-->
+        <!--onclick=reload so that game scroll animation plays again on reload-->
+        <a onclick="document.location.reload()" href="#home" class="left-nav">
+            <img src="img/logo.png" />
+        </a>
+        <a onclick="document.location.reload()" href="#home" class="left-nav">
+            Supernova
+        </a>
+        <a href="./site/index.html" class="right-nav ios-btn">Play Now</a>
+    </nav>
+    <!--Made the home background and page different elements so that the background image could blur
+        Could probably do the same for nav bar but that's too much work-->
+    <div id="home"></div>
+    <section id="home-section">
+        <h1>Play <div id="home-game-scroll-item"></div></h1><br />
+        <h3>On Supernova</h3>
+    </section>
+    <footer></footer> <!--Add a footer-->
+    <script src="script.js"></script>
+</body>
+</html>
