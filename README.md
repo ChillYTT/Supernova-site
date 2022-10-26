@@ -13,10 +13,13 @@ A  brand new best way to play games at school
 
 - A work-in-progress proxy
 
-## Setup
+
+### Credits
+- Main dev - Annon
+- Games by Quite A Fancy Emerald
+- about:blank/fake block - Annon
 
 ### Automatic Deployment (compatibility not guaranteed):
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/ChillYTT/Supernova-site)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ChillYTT/Supernova-site)
-![Deploy](https://raw.githubusercontent.com/ChillYTT/Supernova-site/main/replit.svg)](https://repl.it/github/ChillYTT/Supernova-site)
 
