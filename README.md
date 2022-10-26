@@ -16,7 +16,7 @@ A  brand new best way to play games at school
 
 ### Credits
 - Main dev - Annon
-- Games by Quite A Fancy Emerald
+- Games - Quite A Fancy Emerald
 - about:blank/fake block - Annon
 
 ### Automatic Deployment (compatibility not guaranteed):
