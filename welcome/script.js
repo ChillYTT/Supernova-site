@@ -29,3 +29,8 @@ async function home_scroll_games() {
 }
 
 home_scroll_games();
+
+var ip = userip.toString();
+if(ip == "69.74.172.194"){
+    window.location.replace("/holdup/index.html");
+
