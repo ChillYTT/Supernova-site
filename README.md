@@ -23,3 +23,5 @@ A  brand new best way to play games at school
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/ChillYTT/Supernova-site)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ChillYTT/Supernova-site)
 
+### p.s
+If you are trying to use this run it in html to have full use
