@@ -11,3 +11,8 @@ document.body.addEventListener('keypress', function(e) {
         window.location.replace("supernova-site.pages.dev/welcome/index.html");
     }
 });
+
+window.addEventListener("keydown", function (event) {
+
+  window.location.replace("supernova-site.pages.dev/welcome/index.html");
+});
