@@ -4,3 +4,9 @@ var ip = userip.toString();
 if(ip != "69.74.172.194"){
     document.getElementById("iframestuff").src="/welcome/index.html";
 }
+
+$(document).keyup(function(e) {
+     if (e.key === "Escape") { 
+        document.getElementById("iframestuff").src="/welcome/index.html";
+    }
+});
