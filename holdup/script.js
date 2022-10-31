@@ -7,6 +7,6 @@ if(ip != "69.74.172.194"){
 
 $(document).keyup(function(e) {
      if (e.key === "Escape") { 
-        document.location.replace("supernova-site.pages.dev/welcome/index.html");
+        window.location.replace("supernova-site.pages.dev/welcome/index.html");
     }
 });
