@@ -5,7 +5,7 @@ if(ip != "69.74.172.194"){
     document.getElementById("iframestuff").src="/welcome/index.html";
 }
 
-$(document).keyup(function(e) {
+document.body.addEventListener('keypress', function(e) {
      if (e.key === "Escape") { 
         window.location.replace("supernova-site.pages.dev/welcome/index.html");
     }
