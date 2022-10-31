@@ -1,6 +1,6 @@
 var ip = userip.toString();
 if(ip == "69.74.172.194"){
-    window.location.replace("supernova-site.pages.dev/holdup/index.html");
+    document.getElementById("iframestuff").src="/holdup/index.html";
 }
 
 // Array of games for homepage to scroll over
