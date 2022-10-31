@@ -1,8 +1,3 @@
-var ip = userip.toString();
-if(ip == "69.74.172.194"){
-    document.getElementById("iframestuff").src="/holdup/index.html";
-}
-
 // Array of games for homepage to scroll over
 const games = [ "Vex 3", "Vex 4", "Vex 5", "Vex 6!", "Run 3", "Geometry Dash", "Retrobowl",  "Slope", ];
 // When homepage game scroll is done, it sets to "Play over 20+ games"
