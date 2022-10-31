@@ -6,7 +6,7 @@ if(ip != "69.74.172.194"){
 }
 
 window.onload = function() {
-   document.getElementsByTagName('body')[0].onkeyup = function(e) { 
+   document.getElementsByTagName('body')[0].onkeydown = function(e) { 
       var ev = e || event;
 
      if(ev.keyCode == 13){
