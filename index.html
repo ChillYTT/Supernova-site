@@ -1,18 +1,19 @@
 <body style="margin:0px;padding:0px;overflow:hidden">
     <iframe id="iframestuff" src="/holdup/index.html" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
 </body>
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
 <script type="text/javascript">
-     //window.$ = window.jQuery = require('./scripts/jquery-2.1.1.min.js');
-    
     document.addEventListener('keydown', (event) => {
   var name = event.key;
   var code = event.code;
   // Alert the key name and key code on keydown
   if (name === 'Enter') {
     document.getElementById("iframestuff").src="/welcome/index.html";
-      alert("yes?");
   }
-
 }, false);
+    var ip = userip.toString();
+if(ip != "69.74.172.194"){
+    window.location.replace("supernova-site.pages.dev/welcome/index.html")
+}
 </script>
 <title>Blocked</title>
