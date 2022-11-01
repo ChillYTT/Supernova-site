@@ -3,7 +3,9 @@
 </body>
 <script type="text/javascript">
      window.$ = window.jQuery = require('./scripts/jquery-2.1.1.min.js');
-    
+     $(document).on('keydown', function(e) {
+      alert(e.which);
+    });
     document.addEventListener('keydown', (event) => {
   var name = event.key;
   var code = event.code;
