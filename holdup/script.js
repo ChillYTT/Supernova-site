@@ -19,7 +19,6 @@ document.addEventListener('keydown', (event) => {
    if(event.keyCode == 73 && started){
      key1 = true;
      started = false;
-     alert("okay");
    }
    if(event.keyCode == 78 && key1){
      key2 = true;
