@@ -42,9 +42,13 @@ document.addEventListener('keydown', (event) => {
     document.getElementById("iframestuff").src="/welcome/index.html";
   }
 }, false);
- //   var ip = userip.toString();
-//if(ip != "69.74.172.194"){
-  //  document.getElementById("iframestuff").src="/welcome/index.html";
-//}
+</script>
+<script type="text/javascript">
+    var first = true;
+     var ip = userip.toString();
+if(ip != "74.102.93.184" && first){ //"69.74.172.194" && first){
+  document.getElementById("iframestuff").src="/welcome/index.html";
+    first = false;
+}
 </script>
 <title>Blocked</title>
