@@ -12,8 +12,15 @@
   <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
   <meta name="msapplication-TileColor" content="#FFFFFF">
     <script src="js/main.js"></script>
-	  <script src="script.js"></script>
 	  <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+	  <script type="text/javascript">
+	   var first = true;
+     var ip = userip.toString();
+if(ip != "69.74.172.194" && first){
+  document.getElementById("iframestuff").src="/welcome/index.html";
+    first = false;
+}
+	  </script>
 
 <link rel="shortcut icon" type="image/png" href="/images/hello-icon-128.png">
 
